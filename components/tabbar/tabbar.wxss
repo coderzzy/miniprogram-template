@@ -1,0 +1,23 @@
+.tabbar-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  border-top: 1rpx solid #eee;
+}
+
+.tab-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.tab-item.active {
+  color: #1E90FF;
+}

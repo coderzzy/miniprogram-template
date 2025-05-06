@@ -1,0 +1,8 @@
+<view class="footer-container">
+  <view class="footer-content">
+    <text>©{{currentYear}} 这是copyright</text>
+    <view class="feedback-link">
+      <text bindtap="openFeedback">点击填写使用反馈</text>
+    </view>
+  </view>
+</view>

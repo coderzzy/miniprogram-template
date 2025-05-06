@@ -1,0 +1,24 @@
+.footer-container {
+  position: fixed;
+  bottom: 100rpx;
+  left: 0;
+  right: 0;
+  background: #f7f7f7;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #eee;
+}
+
+.footer-content {
+  text-align: center;
+  color: #999;
+  font-size: 24rpx;
+}
+
+.feedback-link {
+  margin-top: 10rpx;
+}
+
+.feedback-link text {
+  color: #1E90FF;
+  text-decoration: underline;
+}

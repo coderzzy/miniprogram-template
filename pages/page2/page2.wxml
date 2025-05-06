@@ -1,0 +1,10 @@
+<view style="height: 100vh; background-color: #f7f7f7;">
+  这是page2
+
+  <!-- 底部固定区域 -->
+  <footer />
+  
+  <view style="position: fixed; bottom: 0; left: 0; right: 0;">
+    <tabbar tabs="{{tabs}}" currentTab="{{1}}" bind:switch="handleTabSwitch" />
+  </view>
+</view>

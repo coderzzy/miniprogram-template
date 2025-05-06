@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/page1/page1",
+    "pages/page2/page2"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "这是标题",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar",
+    "footer": "/components/footer/footer"
+  }
+}
